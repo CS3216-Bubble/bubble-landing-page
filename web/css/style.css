@@ -69,10 +69,10 @@ html,body {
    margin-top: 10em;
 }
 .banner-info-left h2{
-  font-size: 2em;
+  font-size: 3em;
   /*margin: 6em 0 1em 0;*/
   color: #FFF;
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.5em;
 }
 .banner-info-left h2 span{
@@ -997,10 +997,10 @@ color: #FFF;
 @media (max-width:640px){
 	.banner-info-left {
 		width: 67%;
-    margin-top: 10em;
+    margin-top: 1em;
 	}
 	.banner-info-left h2 {
-		font-size: 1.37em;
+		font-size: 2em;
 		/*margin: 5em 0 2em 0;*/
 	}
 	.slid {
@@ -1084,6 +1084,7 @@ color: #FFF;
 	}
 	.banner-info-left h2 {
 		/*margin: 2em 0 2em 0;*/
+    fontsize: 2em;
 	}	
 	.banner-info-left {
 		width: 100%;
