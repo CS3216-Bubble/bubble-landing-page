@@ -18,6 +18,27 @@ html,body {
    font-family: 'OpenSans-Regular';
    src: url(../fonts/OpenSans-Regular.ttf)format('truetype');
 }
+
+.rant {
+  background: #FF7663;
+}
+.funny {
+  background: #FFE98F;
+}
+.nostalgia {
+  background: #f39c12;
+}
+.relationship {
+  background: #FD8EBE;
+}
+.advice {
+  background: #EFC9FF;
+}
+.school {
+  background: #A7DBD8;
+}
+
+
 .header-bg{
 	background: #69d2e7;
 	background-size:cover;
@@ -376,9 +397,9 @@ ul.social-slide li i.mac{
   line-height: 1.8em;
 }
 .services-icon {
-  background: #69d2e7;
-  width: 120px;
-  height: 120px;
+/*  background: #69d2e7;*/
+  width: 200px;
+  height: 200px;
   line-height: 10em;
   margin: 0 auto;
   border-radius: 50%;
@@ -386,6 +407,9 @@ ul.social-slide li i.mac{
   -ms-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
+}
+.services-icon img{
+  padding-top: 34px;
 }
 .glyphicon {
   position: relative;
