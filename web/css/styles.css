@@ -227,7 +227,7 @@ nav ul li a:hover, nav ul li a:focus { color: rgba(255, 255, 255, 1); text-decor
 .download-btn:hover, .download-btn:focus { text-decoration: none; border-color: #a58347; color: #a58347; }
 .testimonials { background: #5b6869 url('../img/tBG01.jpg') no-repeat left center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 130px 0; }
 .features { background: #fff url('../img/arrowBG.png') no-repeat center -1px; padding: 70px 0; }
-.features p { color: #7a8387; font-size: 16px; word-spacing: 2px; line-height: 30px; }
+.features p { color: #7a8387; font-size: 18px !important; word-spacing: 2px; line-height: 30px; }
 .features-leftcol { border-right: 1px solid rgba(208, 217, 226, 0.4); padding-right: 60px; }
 .features-rightcol { padding-left: 60px; }
 .margin-bottom { margin-bottom: 70px; }
@@ -319,6 +319,24 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD { visibility: visible; }
 @media (max-width:320px){
 	nav ul li a {
-		padding: 12px 0px !important;
+		padding: 12px 0px;
 	}
+  .custom-features-right {
+    padding: 0px !important;
+  }
+}
+@media (max-width:992px){
+  .custom-features-right {
+    padding-right: 0em !important;
+  }
+}
+@media (max-width:481px){
+  .custom-features-right {
+    padding-left: 2em !important;
+  }
+}
+
+.custom-features-right {
+  padding-left: 12em;
+  padding-right: 4em;
 }
