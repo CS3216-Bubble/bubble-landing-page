@@ -657,9 +657,7 @@ color: #FFF;
 }
 /*-- footer --*/
 .footer{
-  background: url(../images/banner1.jpg) no-repeat 0px 0px;
-  background-size: cover;
-  padding: 4em 0 1em 0;
+  background: #000000;
 }
 .footer-info{
 	text-align:center;
