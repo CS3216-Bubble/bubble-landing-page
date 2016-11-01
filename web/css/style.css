@@ -63,7 +63,7 @@ html,body {
   background: none !important;
   border: none !important;
   outline: none !important;
-  color: #98D361 !important;
+  color: #69d2e7 !important;
 }
 .banner-info-left {
    margin-top: 10em;
@@ -344,7 +344,7 @@ ul.social-slide li i.mac{
 	text-align: center;
 }
 .banner-text h3{
-  color: #98D361;
+  color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
   font-family: 'DidactGothic';
@@ -376,7 +376,7 @@ ul.social-slide li i.mac{
   line-height: 1.8em;
 }
 .services-icon {
-  background: #98D361;
+  background: #69d2e7;
   width: 120px;
   height: 120px;
   line-height: 10em;
@@ -426,7 +426,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   background: #F5F5F5;
 }
 .about-info h3{
-	color: #98D361;
+	color: #69d2e7;
 	font-size: 3em;
 	font-weight: 400;
 	font-family: 'DidactGothic';
@@ -454,7 +454,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   text-align: center;
 }
 .features-info h3 {
-  color: #98D361;
+  color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
   font-family: 'DidactGothic';
@@ -509,7 +509,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .design-right h5{
   margin: 0;
   font-size: 1.6em;
-  color: #98D361;
+  color: #69d2e7;
 }
 .design-right p{
   font-size: 1em !important;
@@ -523,7 +523,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   text-align: center;
 }
 .plans h3{
-  color: #98D361;
+  color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
   font-family: 'DidactGothic';
@@ -543,7 +543,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   width: 43%;
   z-index: 999;
   margin: 0 auto;
-  background: #98D361;
+  background: #69d2e7;
   text-align: center;
   padding: 1em 0;
   border-radius: 50%;
@@ -589,7 +589,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	-ms-transition: .5s all;
 }
 .plans-grid-head{
-  background: #98d361;
+  background: #69d2e7;
   padding: 4em 0 2em 0;
   text-align: center;
 }
@@ -628,7 +628,7 @@ color: #FFF;
   font-size: 18px;
   font-weight: 300;
   padding: .5em 1.5em;
-  background: #98D361;
+  background: #69d2e7;
   box-shadow: 0px 2px 0px #558825;
   text-transform: uppercase;
   border-radius: 7px;
@@ -743,7 +743,7 @@ color: #FFF;
 	text-align:center;
 }
 .mail-info h3 {
-  color: #98D361;
+  color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
   font-family: 'DidactGothic';
@@ -765,7 +765,7 @@ color: #FFF;
   border: none;
 }
 .mail-grid-left h3 {
-  color: #98D361;
+  color: #69d2e7;
   font-size: 2em;
   margin: 0;
 }
@@ -828,7 +828,7 @@ color: #FFF;
   font-weight: 600;
   margin: 0.5em 0 0 0;
   -webkit-appearance: none;
-  background: #98D361;
+  background: #69d2e7;
   border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
