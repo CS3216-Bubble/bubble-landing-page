@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*-- header --*/
 html,body {
-	font-family: 'OpenSans-Regular';
+	font-family: 'Dosis', sans-serif !important;
 	background:#FFF;
 	font-size:100%;
 }
@@ -49,11 +49,11 @@ html,body {
 }
 .header {
 	padding-top: 4em;
-}	
+}
 .head-logo a{
   color: #FFF;
   font-size: 3em;
-  font-family: 'DidactGothic';
+  font-family: 'Dosis', sans-serif;
   text-decoration: none;
   font-weight: 600;
 }
@@ -77,7 +77,7 @@ html,body {
   padding: 8px;
 }
 .top-nav a:focus{
-  outline: none !important;	
+  outline: none !important;
 }
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
@@ -276,6 +276,7 @@ html,body {
   float: left;
 }
 .rslides img {
+  width: 300px;
   height: auto;
   border: 0;
 }
@@ -368,7 +369,7 @@ ul.social-slide li i.mac{
   color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
-  font-family: 'DidactGothic';
+  font-family: 'Dosis', sans-serif;
   margin: 0;
 }
 .banner-text p{
@@ -380,9 +381,10 @@ ul.social-slide li i.mac{
 }
 .banner-bottom-grids{
 	margin: 6em 0 0 0;
-}	
+}
 .banner-bottom-grid{
 	text-align:center;
+  margin-bottom: 40px;
 }
 .banner-bottom-grid h4{
   color: #747474;
@@ -391,7 +393,7 @@ ul.social-slide li i.mac{
 }
 .banner-bottom-grid p{
   color: #A0A0A0;
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 0 auto;
   width: 80%;
   line-height: 1.8em;
@@ -453,7 +455,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color: #69d2e7;
 	font-size: 3em;
 	font-weight: 400;
-	font-family: 'DidactGothic';
+	font-family: 'Dosis', sans-serif;
 	margin: 0;
 }
 .about-info p.caption {
@@ -482,7 +484,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
-  font-family: 'DidactGothic';
+  font-family: 'Dosis', sans-serif;
   margin: 0;
 }
 .features-info p {
@@ -551,7 +553,7 @@ ul.callbacks_tabs.callbacks2_tabs {
   color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
-  font-family: 'DidactGothic';
+  font-family: 'Dosis', sans-serif;
   margin: 0;
 }
 .plans p{
@@ -584,7 +586,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 .plan-text a{
 	color:#FFF;
 	font-size:20px;
-}	
+}
 .plan-text a:hover{
 	color:#FFF;
 	text-decoration:none;
@@ -771,7 +773,7 @@ color: #FFF;
   color: #69d2e7;
   font-size: 3em;
   font-weight: 400;
-  font-family: 'DidactGothic';
+  font-family: 'Dosis', sans-serif;
   margin: 0;
 }
 .mail-info p {
@@ -848,7 +850,7 @@ color: #FFF;
   outline: none;
   color: #FFF;
   padding: 1em 2em;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 1em;
   font-weight: 600;
   margin: 0.5em 0 0 0;
@@ -876,7 +878,7 @@ color: #FFF;
 	bottom: 14px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 24px;
 	height: 24px;
 	border: none;
@@ -939,7 +941,7 @@ color: #FFF;
 	.header {
 		padding-top: 2em;
 	}
-	.banner-info-left {	
+	.banner-info-left {
 		width: 60%;
 		float:left;
     margin-top: 10em;
@@ -958,6 +960,10 @@ color: #FFF;
 	.mobile-device img {
 		width: 100%;
 	}
+  .mobile-device-img {
+    width: 330px;
+    object-fit: contain;
+  }
 	.banner-bottom {
 		padding: 3em 0;
 	}
@@ -980,12 +986,12 @@ color: #FFF;
 	.design-right {
 		/*margin-left: 2em;*/
 		width: 77%;
-	}	
+	}
 	.features-right {
 		padding-left: 2em !important;
 		float: left;
 		width: 60%;
-	}	
+	}
 	.features-right {
 		/*margin-top: 6em;*/
 	}
@@ -1110,7 +1116,7 @@ color: #FFF;
 	.banner-info-left h2 {
 		/*margin: 2em 0 2em 0;*/
     fontsize: 2em;
-	}	
+	}
 	.banner-info-left {
 		width: 100%;
 		float: none;
@@ -1131,7 +1137,7 @@ color: #FFF;
 	.mobile-device {
 		margin: 1em auto 0 auto;
 		width: 58%;
-	}	
+	}
 	.callbacks_tabs a:after {
 		height: 13px;
 		width: 13px;
@@ -1162,7 +1168,7 @@ color: #FFF;
 	}
 	.footer {
 		padding: 4em 0 0 0;
-	}		
+	}
 	.footer-info h3 {
 		font-size: 23px;
 	}
@@ -1277,7 +1283,7 @@ color: #FFF;
 	.mobile-device {
 		margin: 2em auto 0 auto;
 		width: 64%;
-	}		
+	}
 	.banner-text h3 {
 		font-size: 2em;
 	}
