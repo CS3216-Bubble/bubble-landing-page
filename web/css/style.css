@@ -19,6 +19,30 @@ html,body {
    src: url(../fonts/OpenSans-Regular.ttf)format('truetype');
 }
 
+.bubble-web-btn:hover {
+    top: -2px;
+}
+.bubble-web-btn:active {
+    top: 1px;
+}
+.bubble-web-btn {
+    background-color: #EF4836;
+    border-radius: 25px / 17px;
+    border: none;
+    left: -20px;
+    margin: 20px;
+    line-height: 34px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: inherit;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+
 .rant {
   background: #FF7663;
 }
@@ -938,6 +962,10 @@ color: #FFF;
 	}
 }
 @media (max-width:991px){
+  .bubble-web-btn {
+    font-size: 28px;
+    border-radius: 15px/17px;
+  }
 	.header {
 		padding-top: 2em;
 	}
